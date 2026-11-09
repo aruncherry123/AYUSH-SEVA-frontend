@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="tile" x1="6" y1="1" x2="43" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1d4ed8"/>
+      <stop offset=".52" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#0e7490"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="24" y1="1" x2="24" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="10" y1="24" x2="38" y2="24" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe4ee"/>
+      <stop offset=".45" stop-color="#fda4af"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="46" height="46" rx="14" fill="url(#tile)"/>
+  <rect x="1" y="1" width="46" height="46" rx="14" fill="url(#gloss)"/>
+  <rect x="2.25" y="2.25" width="43.5" height="43.5" rx="12.75" stroke="#fff" stroke-opacity=".18" stroke-width="1.1"/>
+  <rect x="19.4" y="9.6" width="9.2" height="28.8" rx="4.6" fill="#fff"/>
+  <rect x="9.6" y="19.4" width="28.8" height="9.2" rx="4.6" fill="#fff"/>
+  <path d="M8.4 24h6.1l2.5-5.2 4 10.6 3.2-7.1 2.1 1.7h13.3" stroke="url(#pulse)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
